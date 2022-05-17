@@ -1,12 +1,14 @@
 <template>
   <div id="app" class="relative bg-gray-dark">
-    <!-- <NavBar /> -->
     <SideBar />
+    <NavBar />
     <main class="grid gap-y-96 md:gap-y-192 overflow-x-hidden">
       <MainHero />
-      <!-- <About />
-      <HelloWorld />
-      <Footer /> -->
+      <Roster />
+      <!-- 
+        <About />
+      -->
+      <Footer />
     </main>
   </div>
 </template>
@@ -17,21 +19,20 @@ import ScrollTrigger from "gsap/ScrollTrigger";
 
 gsap.registerPlugin(ScrollTrigger);
 
-// import NavBar from "@/components/NavBar.vue";
+import NavBar from "@/components/NavBar.vue";
 import SideBar from "@/components/SideBar.vue";
 import MainHero from "@/components/MainHero.vue";
-// import HelloWorld from "@/components/HelloWorld.vue";
-// import About from "@/components/About.vue";
-// import Footer from "@/components/Footer.vue";
+import Roster from "@/components/Roster.vue";
+import Footer from "@/components/Footer.vue";
 
 export default {
   components: {
-    // NavBar,
+    NavBar,
     SideBar,
     MainHero,
-    // HelloWorld,
+    Roster,
     // About,
-    // Footer,
+    Footer,
   },
   mounted: function() {
     //hero

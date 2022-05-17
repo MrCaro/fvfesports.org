@@ -62,10 +62,15 @@
         </p>
         <div class="flex flex-col mt-16 md:mt-60 gap-y-56 gap-y-40">
           <div>
-            <a class="group" href="/">
-              <div class="flex justify-between">
+            <a
+              class="group"
+              href="https://www.instagram.com/p/CddtG66u1Uq/?utm_source=ig_web_copy_link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div class="flex justify-between gap-32">
                 <h2
-                  class="font-heading text-44 text-gray-light leading-44 font-600 uppercase"
+                  class="font-heading text-44 text-gray-light leading-44 font-600 uppercase transition-colors duration-200 group-hover:text-wine-default"
                 >
                   Charla de identidad
                 </h2>
@@ -75,35 +80,65 @@
                   alt=""
                 />
               </div>
-              <p>may 2020</p>
+              <p class="font-action text-12 text-gray-light mt-20 uppercase">
+                may0 12, 2022
+              </p>
               <span
-                class="block ml-32 origin-left scale-x-50 group-hover:scale-x-100 transition-transform ease-in duration-200 delay-200 border-gray-light border-t-[1px]"
+                class="block mt-40 ml-32 origin-left scale-x-50 group-hover:scale-x-100 transition-transform ease-in duration-200 delay-200 border-gray-light border-t-[1px]"
               ></span>
             </a>
           </div>
           <div>
-            <a class="group" href="/">
-              <h2
-                class="font-heading text-44 text-gray-light leading-44 font-600 uppercase"
-              >
-                news 1
-              </h2>
-              <p>may 2020</p>
+            <a
+              class="group"
+              href="https://www.instagram.com/p/CdYQbDnupi1/?utm_source=ig_web_copy_link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div class="flex justify-between gap-32">
+                <h2
+                  class="font-heading text-44 text-gray-light leading-44 font-600 uppercase transition-colors duration-200 group-hover:text-wine-default"
+                >
+                  nuestro dt
+                </h2>
+                <img
+                  class="self-end transition-transform ease-in duration-200 group-hover:scale-50"
+                  :src="`${publicPath}icons/arrow-link.svg`"
+                  alt=""
+                />
+              </div>
+              <p class="font-action text-12 text-gray-light mt-20 uppercase">
+                mayo 10, 2022
+              </p>
               <span
-                class="block ml-32 origin-left scale-x-50 group-hover:scale-x-100 transition-transform ease-in duration-200 delay-200 border-gray-light border-t-[1px]"
+                class="block mt-40 ml-32 origin-left scale-x-50 group-hover:scale-x-100 transition-transform ease-in duration-200 delay-200 border-gray-light border-t-[1px]"
               ></span>
             </a>
           </div>
           <div>
-            <a class="group" href="/">
-              <h2
-                class="font-heading text-44 text-gray-light leading-44 font-600 uppercase"
-              >
-                news 1
-              </h2>
-              <p>may 2020</p>
+            <a
+              class="group"
+              href="https://www.instagram.com/p/Ccv7K9KOevp/?utm_source=ig_web_copy_link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div class="flex justify-between gap-32">
+                <h2
+                  class="font-heading text-44 text-gray-light leading-44 font-600 uppercase transition-colors duration-200 group-hover:text-wine-default"
+                >
+                  tenemos campeón
+                </h2>
+                <img
+                  class="self-end transition-transform ease-in duration-200 group-hover:scale-50"
+                  :src="`${publicPath}icons/arrow-link.svg`"
+                  alt=""
+                />
+              </div>
+              <p class="font-action text-12 text-gray-light mt-20 uppercase">
+                abril 24, 2022
+              </p>
               <span
-                class="block ml-32 origin-left scale-x-50 group-hover:scale-x-100 transition-transform ease-in duration-200 delay-200 border-gray-light border-t-[1px]"
+                class="block mt-40 ml-32 origin-left scale-x-50 group-hover:scale-x-100 transition-transform ease-in duration-200 delay-200 border-gray-light border-t-[1px]"
               ></span>
             </a>
           </div>
