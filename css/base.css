@@ -1,0 +1,47 @@
+html {
+  scroll-behavior: smooth;
+  background-color: #111111;
+}
+
+.plyr {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 56.25%;
+  --plyr-color-main: #b928e5;
+  border-radius: 0.25rem;
+}
+
+.plyr__video {
+  background-color: white;
+}
+
+.plyr__controls {
+  display: none;
+}
+
+.plyr__video-wrapper {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  border-radius: 0.25rem;
+}
+
+.plyr .plyr__poster {
+  background-size: cover;
+  border-radius: 0.25rem;
+}
+
+/* move to components */
+.animation-sidebar {
+  animation: 10s alternate 0s infinite sidebar;
+}
+
+@keyframes sidebar {
+  from {
+    transform: translateY(-4%);
+  }
+
+  to {
+    transform: translateY(3%);
+  }
+}
